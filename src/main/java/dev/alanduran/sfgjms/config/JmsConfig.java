@@ -10,6 +10,7 @@ import org.springframework.jms.support.converter.MessageType;
 public class JmsConfig {
 
     public static final String JMS_QUEUE = "jms.queue";
+    public static final String JMS_SND_RCV_QUEUE = "jms.send.recieve.queue";
 
     @Bean
     public MessageConverter messageConverter() {
